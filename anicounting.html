@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Counting Animation - 4 Stats</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .counter {
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: blue;
+    }
+    /* .stat {
+      padding: 20px;
+      border-radius: 12px;
+      background-color: #f8f9fa;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    } */
+  </style>
+</head>
+<body class="bg-light">
+
+  <div class="container py-5">
+    <div class="row text-center g-4">
+      <div class="col-md-3">
+        <div class="stat">
+          <div class="counter" data-target="1200">0</div>
+          <p class="mb-0">Users</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="stat">
+          <div class="counter" data-target="3500">0</div>
+          <p class="mb-0">Downloads</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="stat">
+          <div class="counter" data-target="780">0</div>
+          <p class="mb-0">Likes</p>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="stat">
+          <div class="counter" data-target="45">0</div>
+          <p class="mb-0">Projects</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const counters = document.querySelectorAll('.counter');
+
+    counters.forEach(counter => {
+      counter.innerText = '0';
+      const updateCounter = () => {
+        const target = +counter.getAttribute('data-target');
+        const current = +counter.innerText;
+        const increment = target / 200;
+
+        if (current < target) {
+          counter.innerText = `${Math.ceil(current + increment)}`;
+          setTimeout(updateCounter, 10);
+        } else {
+          counter.innerText = target;
+        }
+      };
+
+      updateCounter();
+    });
+  </script>
+
+</body>
+</html>

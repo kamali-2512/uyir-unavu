@@ -1,0 +1,224 @@
+body
+{
+    overflow-x: hidden;
+}
+/* topbar start */
+.top
+{
+    background-color:rgb(8, 65, 38);
+}
+.app
+{
+    position: fixed;
+    bottom:70px;
+    right:0px;
+    font-size: 40px;
+    color:azure;
+    background-color:#32CD32;
+    z-index: 1;
+}
+.name
+{
+    margin-top:10px;
+    margin-bottom:5px;
+}
+.icon1
+{
+    margin-left:40px;
+}
+.follow
+{
+    margin-left:300px;
+}
+.icon
+{
+    font-size:18px;
+}
+/* topbar end */
+/* navbar start */
+.head
+{
+    color:rgb(8, 65, 38);
+    background-color: white;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left:30px;
+    margin-top:16px;
+    display: block;
+    z-index:1;
+}
+.topic
+{
+    margin-left:270px;
+    margin-top:16px;
+    font-weight:bold;
+}
+.nam
+{
+    color:rgb(8, 65, 38);
+}
+.butt
+{
+    padding:5px 5px 5px 5px;
+    margin-top:29px;
+}
+.buton
+{
+    background-color: rgb(17, 122, 17);
+    margin-top:-25px;
+    margin-bottom:-10px;
+}
+.home
+{
+    position:sticky;
+    top:3px;
+    bottom:30px;
+    display: block;
+    background-color: white;
+    z-index: 1;
+    border-color: white;
+    box-shadow: 0px 2px 2px 0px lightgrey;
+}
+/* navbar end */
+/* banner start */
+.banner
+{
+    backface-visibility: hidden;
+}
+.para
+{
+    font-size:60px;
+    font-weight:bolder;
+    margin-top:140px;
+    margin-left:430px;
+    margin-right:380px;
+}
+.para1
+{
+    font-size:60px;
+    font-weight:bolder;
+    margin-top:240px;
+    margin-left:400px;
+    margin-right:350px;
+}
+.para2
+{
+    font-size:60px;
+    font-weight:bolder;
+    margin-top:70px;
+    margin-left:380px;
+    margin-right:350px;
+}
+.banner
+{
+    position: relative;
+}
+.banner img 
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(60%);
+}
+.overlay 
+{
+    left: 0;
+    top:0;
+    bottom:500px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(177, 230, 203, 0.4); 
+    display: flex;
+    color: rgb(45, 58, 45);
+}
+.now
+{
+    background-color: rgb(17, 122, 17);
+    padding: 20px 20px 25px 25px;
+    font-size:20px;
+    font-weight:bold;
+    margin-top:20px;
+}
+.symbol
+{
+    background-color:rgb(0, 128, 75);
+    padding: 20px 20px 25px 25px;
+}
+ ul.breadcrumb 
+{
+  padding: 10px 16px;
+  margin-left:170px;
+}
+ul.breadcrumb li
+{
+  display: inline;
+  font-size: 20px;
+}
+ul.breadcrumb li+li:before
+{
+  padding: 8px;
+  color:white;
+  content: "/\00a0";
+}
+ul.breadcrumb li a
+{
+  color:white;
+  text-decoration: none;
+}
+/* banner end */
+/* footer start */
+.foot
+{
+    background-color: rgb(8, 65, 38);
+}
+.foticon
+{
+    margin-left:47px;
+}
+.footunder
+{
+    text-decoration: none;
+}
+.subhome
+{
+    margin-left:120px;
+}
+.email
+{
+    padding:15px 15px 15px 15px;
+    width:200px;
+}
+.ffoot
+{
+    margin-bottom:100px;
+}
+/* footer end */
+/* privacy start */
+.names
+{
+    color:rgb(8, 65, 38);
+    font-weight:bolder;
+}
+.prip
+{
+    margin-left:20px;
+    font-size: 17px;
+    color:rgba(94, 91, 91, 0.952);
+}
+.npri
+{
+    color:rgb(8, 65, 38);
+    margin-top:10px;
+    margin-left:20px;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+.ref
+{
+    margin-top:30px;
+}
+.unpri
+{
+    margin-left:-30px;
+}
+/* privacy end */

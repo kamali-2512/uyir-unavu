@@ -1,0 +1,342 @@
+body
+{
+    overflow-x: hidden;
+}
+/* topbar start */
+.top
+{
+    background-color:rgb(8, 65, 38);
+}
+.app
+{
+    position: fixed;
+    bottom:70px;
+    right:0px;
+    font-size: 40px;
+    color:azure;
+    background-color:#32CD32;
+    z-index: 1;
+}
+.name
+{
+    margin-top:10px;
+    margin-bottom:5px;
+}
+.icon1
+{
+    margin-left:40px;
+}
+.follow
+{
+    margin-left:300px;
+}
+.icon
+{
+    font-size:18px;
+}
+/* topbar end */
+/* navbar start */
+.head
+{
+    color:rgb(8, 65, 38);
+    background-color: white;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left:30px;
+    margin-top:16px;
+    display: block;
+    z-index:1;
+}
+.topic
+{
+    margin-left:270px;
+    margin-top:16px;
+    font-weight:bold;
+}
+.nam
+{
+    color:rgb(8, 65, 38);
+}
+.butt
+{
+    padding:5px 5px 5px 5px;
+    margin-top:29px;
+}
+.buton
+{
+    background-color: rgb(17, 122, 17);
+    margin-top:-25px;
+    margin-bottom:-10px;
+}
+.home
+{
+    position:sticky;
+    top:3px;
+    bottom:30px;
+    display: block;
+    background-color: white;
+    z-index: 1;
+    border-color: white;
+    box-shadow: 0px 2px 2px 0px lightgrey;
+}
+/* navbar end */
+/* banner start */
+.banner
+{
+    backface-visibility: hidden;
+}
+.para
+{
+    font-size:60px;
+    font-weight:bolder;
+    margin-top:140px;
+    margin-left:430px;
+    margin-right:380px;
+}
+.para1
+{
+    font-size:60px;
+    font-weight:bolder;
+    margin-top:240px;
+    margin-left:400px;
+    margin-right:350px;
+}
+.para2
+{
+    font-size:60px;
+    font-weight:bolder;
+    margin-top:70px;
+    margin-left:380px;
+    margin-right:350px;
+}
+.banner
+{
+    position: relative;
+}
+.banner img 
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(60%);
+}
+.overlay 
+{
+    left: 0;
+    top:0;
+    bottom:500px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(177, 230, 203, 0.4); 
+    display: flex;
+    color: rgb(45, 58, 45);
+}
+.now
+{
+    background-color: rgb(17, 122, 17);
+    padding: 20px 20px 25px 25px;
+    font-size:20px;
+    font-weight:bold;
+    margin-top:20px;
+}
+.symbol
+{
+    background-color:rgb(0, 128, 75);
+    padding: 20px 20px 25px 25px;
+}
+ ul.breadcrumb 
+{
+  padding: 10px 16px;
+  margin-left:170px;
+}
+ul.breadcrumb li
+{
+  display: inline;
+  font-size: 20px;
+}
+ul.breadcrumb li+li:before
+{
+  padding: 8px;
+  color:white;
+  content: "/\00a0";
+}
+ul.breadcrumb li a
+{
+  color:white;
+  text-decoration: none;
+}
+/* banner end */
+/* footer start */
+.foot
+{
+    background-color: rgb(8, 65, 38);
+}
+.foticon
+{
+    margin-left:47px;
+}
+.subhome
+{
+    margin-left:120px;
+}
+.email
+{
+    padding:15px 15px 15px 15px;
+    width:200px;
+}
+.ffoot
+{
+    margin-bottom:100px;
+}
+.footunder
+{
+    text-decoration: none;
+}
+/* footer end */
+/* blog start */
+.tblog
+{
+    color:rgb(8, 65, 38);
+}
+.shadow 
+{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.imgs 
+{
+    width: 100%;
+    height: 100%;
+}
+.pblog
+{
+    color:rgba(94, 91, 91, 0.952);
+}
+.imgs img 
+{
+    width: 100%;
+    height: 100%;
+    object-fit:fill; 
+}
+.cfblog
+{
+    background-color: white;
+}
+.shead1
+{
+    font-size:40px;
+    font-weight:bolder;
+    color:rgb(8, 65, 38);
+    margin-top:-27px;
+}
+.shead
+{
+    font-size:40px;
+    font-weight:bolder;
+    color:rgb(8, 65, 38);
+}
+.us
+{
+    font-size:20px;
+    color:rgb(17, 122, 17);
+    font-weight:bold;
+}
+/* blog end */
+/* test start */
+.wtest
+{
+    width: 450px;
+    text-align: justify; 
+    padding: 10px;
+    margin-bottom: 15px;
+    word-wrap: break-word;
+}
+.givebtn
+{
+    background-color: rgb(17, 122, 17);
+    font-size:20px;
+    margin-top:20px;
+    margin-bottom:40px;
+}
+.testu
+{
+    font-size:100px;
+    color:rgb(8, 65, 38);
+    margin-left:0px;
+    margin-top:-40px;
+}
+.userpre
+{
+    margin-top:420px;
+    padding-left:20px;
+    padding-top:20px;
+    padding-right:20px;
+    padding-bottom:20px;
+    margin-left:150px;
+    background-color:black;
+    border-radius:5px;
+}
+.usernex
+{
+    margin-top:420px;
+    padding-left:20px;
+    padding-top:20px;
+    padding-right:20px;
+    padding-bottom:20px;
+    margin-right:400px;
+    background-color:black;
+    border-radius:5px;
+}
+.usertest
+{
+    font-size:23px;
+    width:500px;
+    margin-top:30px;
+    margin-left:10px; 
+    color:rgba(94, 91, 91, 0.952); 
+}
+.tname
+{
+    font-size:20px;
+    color:rgb(8, 65, 38);
+    margin-top:20px;
+    font-weight:bold;
+    margin-left:10px; 
+}
+.testslide
+{
+    margin-top:70px;
+    margin-left:190px;
+}
+.apara
+{
+    font-size:17px;
+    color:rgba(94, 91, 91, 0.952);
+}
+.us
+{
+    font-size:20px;
+    color:rgb(17, 122, 17);
+    font-weight:bold;
+}
+.heads
+{
+    font-size:50px;
+    font-weight:bolder;
+    color:rgb(8, 65, 38);
+}
+.givebtn:hover
+{
+    background-color: green;
+    color:black;
+}
+.sernow
+{
+    color:white;
+    text-decoration: none;
+}
+/* test end */

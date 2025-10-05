@@ -1,0 +1,804 @@
+body
+{
+    overflow-x: hidden;
+}
+/* topbar start */
+.top
+{
+    background-color:rgb(8, 65, 38);
+}
+.app
+{
+    position: fixed;
+    bottom:70px;
+    right:0px;
+    font-size: 40px;
+    color:azure;
+    background-color:#32CD32;
+    z-index: 1;
+}
+.name
+{
+    margin-top:10px;
+    margin-bottom:5px;
+}
+.icon1
+{
+    margin-left:40px;
+}
+.follow
+{
+    margin-left:300px;
+}
+.icon
+{
+    font-size:18px;
+}
+/* topbar end */
+/* navbar start */
+.head
+{
+    color:rgb(8, 65, 38);
+    background-color: white;
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left:30px;
+    margin-top:16px;
+    display: block;
+    
+}
+.topic
+{
+    margin-left:270px;
+    margin-top:16px;
+    font-weight:bold;
+}
+.nam
+{
+    color:rgb(8, 65, 38);
+}
+.butt
+{
+    padding:5px 5px 5px 5px;
+    margin-top:29px;
+}
+.buton
+{
+    background-color: rgb(17, 122, 17);
+    margin-top:-25px;
+    margin-bottom:-10px;
+}
+.home
+{
+    position:sticky;
+    top:3px;
+    bottom:30px;
+    display: block;
+    background-color: white;
+    z-index: 1;
+    border-color: white;
+    box-shadow: 0px 2px 2px 0px lightgrey;
+}
+/* navbar end */
+/* banner start */
+.banner
+{
+    backface-visibility: hidden;
+}
+.para
+{
+    font-size:60px;
+    font-weight:bolder;
+    margin-top:140px;
+    margin-left:430px;
+    margin-right:380px;
+}
+.para1
+{
+    font-size:60px;
+    font-weight:bolder;
+    margin-top:240px;
+    margin-left:400px;
+    margin-right:350px;
+}
+.banner
+{
+    position: relative;
+}
+.banner img 
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(60%);
+}
+.overlay 
+{
+    left: 0;
+    top:0;
+    bottom:500px;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(94, 226, 160, 0.2);  */
+    background-color: rgba(112, 175, 143, 0.3); 
+    display: flex;
+    color: rgb(45, 58, 45);
+}
+.now
+{
+    background-color: rgb(17, 122, 17);
+    padding: 20px 20px 25px 25px;
+    font-size:20px;
+    font-weight:bold;
+    margin-top:20px;
+}
+.now:hover
+{
+    background-color: green;
+    color:black;
+}
+.givebtn:hover
+{
+    background-color: green;
+    color:black;
+}
+.symbol
+{
+    background-color:rgb(0, 128, 75);
+    padding: 20px 20px 25px 25px;
+}
+/* banner end */
+/* services start */
+.heart
+{
+    font-size:20px;
+    margin-top:30px;
+    color:green;
+}
+.services
+{
+    color:rgb(8, 65, 38);
+    font-weight:bold;
+    font-size:30px;
+    margin-left:60px;
+    margin-top:-40px;
+}
+.services1
+{
+    color:rgb(8, 65, 38);
+    font-weight:bold;
+    font-size:30px;
+    margin-left:60px;
+    margin-top:-40px;
+}
+.ser
+{
+    color:grey;
+    margin-top:10px;
+}
+.ser1
+{
+    color:grey;
+    margin-top:10px;
+}
+.bar
+{
+    box-shadow:25px 30px 30px 0px lightgrey;
+    bottom:30px;
+}
+.serv
+{
+    margin-top:-100px;
+    position:relative;
+    background-color: white;
+}
+/* services end */
+/* about start */
+.about
+{
+    border-radius:5px;
+    margin-top:50px;
+}
+.abouts
+{
+    z-index: -1;
+}
+.heads
+{
+    font-size:50px;
+    font-weight:bolder;
+    color:rgb(8, 65, 38);
+}
+.apara
+{
+    font-size:17px;
+    color:rgba(94, 91, 91, 0.952);
+}
+.b1
+{
+    width: 200px;
+    text-align: justify; 
+    padding: 10px;
+    word-wrap: break-word;
+    margin-left:15px;
+}
+.know
+{
+   background-color: rgb(17, 122, 17);
+   padding: 20px 20px 25px 25px;
+   font-size:20px;
+   font-weight:bold;
+   color:white;
+}
+.paras
+{
+    width: 570px;
+    text-align: justify; 
+    padding: 10px;
+    margin-bottom: 15px;
+    word-wrap: break-word;
+}
+.awa
+{
+    font-size:50px;
+    margin-top:30px;
+    color:green;
+    margin-left:25px;
+}
+.third
+{
+    margin-left:50px;
+}
+.nams
+{
+    color:rgb(8, 65, 38);
+    margin-left:25px;
+}
+/* about end */
+/* counting start */
+.count
+{
+    position: relative;
+}
+.count img 
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+.over 
+{
+    left: 0;
+    top:0;
+    bottom:500px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(94, 226, 160, 0.425); 
+    /* background-color: rgba(177, 230, 203, 0.4);  */
+    display: flex;
+    color: rgb(45, 58, 45);
+}
+.counts
+{
+    font-size:60px;
+    font-weight:bolder;
+    margin-left:50px;
+    color:white;
+    filter: brightness(100%);
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+.cnt
+{
+    margin-left:40px;
+    font-weight:500;
+    color:white;
+    filter: brightness(100%);
+}
+.plus
+{
+    font-weight:bold;
+}
+/* counting end */
+/* why choose start */
+.us
+{
+    font-size:20px;
+    color:rgb(17, 122, 17);
+    font-weight:bold;
+}
+.check
+{
+    font-size:50px;
+    margin-left:110px;
+    font-weight:bolder;
+    margin-top:20px;
+    color:green;
+    background-color: rgba(211, 211, 211, 0.397);
+}
+.names
+{
+    color:rgb(8, 65, 38);
+    margin-left:60px;
+    margin-top:40px;
+    font-weight:bolder;
+}
+.names1
+{
+    color:rgb(8, 65, 38);
+    margin-left:75px;
+    margin-top:40px;
+    font-weight:bolder;
+}
+.names2
+{
+    color:rgb(8, 65, 38);
+    margin-left:87px;
+    margin-top:40px;
+    font-weight:bolder;
+}
+.box
+{
+    box-shadow: 20px 20px 20px 0px lightgrey;
+    margin-right:-40px;
+    padding-left:-40px;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+.box1
+{
+    box-shadow: 20px 20px 20px 0px lightgrey;
+    margin-right:-40px;
+    padding-left:-40px;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+.box2
+{
+    box-shadow: 20px 20px 20px 0px lightgrey;
+    margin-right:-40px;
+    padding-left:-40px;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+.boxes
+{
+    margin-top:100px;
+}
+.wchoose
+{
+    width: 550px;
+    text-align: justify; 
+    padding: 10px;
+    margin-bottom: 15px;
+    word-wrap: break-word;
+}
+.users
+{
+    font-size:50px;
+    margin-left:100px;
+    font-weight:bolder;
+    margin-top:20px;
+    color:green;
+    background-color: rgba(211, 211, 211, 0.397);
+}
+.reply
+{
+    font-size:50px;
+    margin-left:100px;
+    font-weight:bolder;
+    margin-top:20px;
+    color:green;
+    background-color: rgba(211, 211, 211, 0.397);
+}
+/* why choose end */
+/* bell start */
+.bbell
+{
+    background-color: rgb(8, 65, 38);
+    padding-top:30px;
+    padding-bottom:30px;
+}
+.bell
+{
+    font-size:80px;
+    margin-left:50px;
+    margin-top:70px;
+    color:white;
+}
+.bhead
+{
+    font-size:45px;
+    font-weight:bolder;
+    color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+.order
+{
+    font-size:20px;
+    font-weight:bold;
+    color:white;
+}
+.bnow
+{
+    background-color: white;
+    color:black;
+    padding: 15px 15px 20px 20px;
+    font-size:17px;
+    font-weight:bold;
+    margin-top:20px;
+    margin-top:70px;
+    margin-left:30px;
+}
+/* bell end */
+/* 2nd services start */
+.shead
+{
+    font-size:40px;
+    font-weight:bolder;
+    color:rgb(8, 65, 38);
+}
+.us
+{
+    font-size:20px;
+    color:rgb(17, 122, 17);
+    font-weight:bold;
+}
+.shead1
+{
+    font-size:40px;
+    font-weight:bolder;
+    color:rgb(8, 65, 38);
+    margin-top:-27px;
+}
+.icons
+{
+    margin-top:40px;
+    margin-left:130px;
+}
+.wch
+{
+    width: 270px;
+    text-align: justify; 
+    padding: 10px;
+    margin-bottom: 15px;
+    word-wrap: break-word;
+    margin-left:25px;
+}
+.cards
+{
+    box-shadow: 0px 10px 20px 10px lightgrey;
+}
+.sna
+{
+    color:rgb(8, 65, 38);
+    margin-left:38px;
+    margin-top:35px;
+    font-weight:bolder;
+}
+.sna1
+{
+    color:rgb(8, 65, 38);
+    margin-left:80px;
+    margin-top:35px;
+    font-weight:bolder;
+}
+.sym
+{
+    margin-left:150px;
+    font-weight:bolder;
+    color:rgb(8, 65, 38);
+}
+.syms
+{
+    border:1px solid lightgrey;
+    background-color: rgb(209, 227, 245);
+    padding:5px 5px 5px 5px;
+    border-radius:5px;
+}
+.now1
+{
+    background-color: rgb(17, 122, 17);
+    padding: 20px 20px 25px 25px;
+    font-size:20px;
+    font-weight:bold;
+    margin-top:20px;
+    margin-left:470px;
+    color:white;
+}
+.sernow
+{
+    color:white;
+    text-decoration: none;
+}
+.now1:hover
+{
+    background-color: rgb(17, 122, 17);
+    color:black;
+}
+.hero-section
+{
+    position: relative;
+    display: flex;
+    color: white;
+    overflow: hidden;
+}
+.hero-bg 
+{
+      
+    position: absolute;  
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('uyirimage/serbackground1.webp'); 
+    background-size: auto;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+.hero-bg1 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('uyirimage/service2background.webp'); 
+    background-size: auto;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+.hero-bg2
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('uyirimage/service3background.webp'); 
+    background-size: auto;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+.apara
+{
+    font-size:17px;
+    color:rgba(94, 91, 91, 0.952);
+}
+.hero-section:hover .hero-bg
+{
+    opacity: 0.8; 
+}
+.hero-section:hover .hero-bg1 
+{
+    opacity: 0.8; 
+}
+.hero-section:hover .hero-bg2
+{
+    opacity: 0.8; 
+}
+.hero-section:hover .icons
+{
+    background-color: white;
+    padding:5px 5px 5px 5px;
+}
+.hero-section:hover .apara
+{
+    color: white;
+}
+.hero-section:hover .sna
+{
+    color: white;
+}
+.hero-section:hover .sna1
+{
+    color: white;
+}
+.hero-content 
+{
+    position: relative;
+    z-index: 1;
+}
+/* 2nd services end */
+/* form start */
+.body
+{
+  margin-left:350px;
+  margin-top:100px;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:630px;
+  height:520px;
+  border-radius:5px;
+}
+.over 
+{
+    left: 0;
+    top:0;
+    bottom:500px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(94, 226, 160, 0.425); 
+    /* background-color: rgba(177, 230, 203, 0.4);  */
+    display: flex;
+    color: rgb(45, 58, 45);
+}
+.form-container
+{
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+}
+.mak
+{
+  color: #134d2a;
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+.donation-form
+{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.text
+{
+  display: flex;
+  gap: 15px;
+}
+.text input
+{
+  flex: 1;
+}
+input, textarea
+{
+  padding: 15px;
+  border: none;
+  background-color: #e9f7ec;
+  font-size: 16px;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+textarea
+{
+  resize: vertical;
+  min-height: 100px;
+}
+.btn1
+{
+  padding: 15px;
+  background-color: #2d8b3e;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 150px;
+  align-self: center;
+}
+.btn1:hover
+{
+  background-color: #256e33;
+}
+/* form end */
+/* test start */
+.wtest
+{
+    width: 450px;
+    text-align: justify; 
+    padding: 10px;
+    margin-bottom: 15px;
+    word-wrap: break-word;
+}
+.givebtn
+{
+    background-color: rgb(17, 122, 17);
+    font-size:20px;
+    margin-top:20px;
+    margin-bottom:40px;
+}
+.testu
+{
+    font-size:100px;
+    color:rgb(8, 65, 38);
+    margin-left:0px;
+    margin-top:-40px;
+}
+.userpre
+{
+    margin-top:380px;
+    padding-left:20px;
+    padding-top:20px;
+    padding-right:20px;
+    padding-bottom:20px;
+    margin-left:150px;
+    background-color:black;
+    border-radius:5px;
+}
+.usernex
+{
+    margin-top:380px;
+    padding-left:20px;
+    padding-top:20px;
+    padding-right:20px;
+    padding-bottom:20px;
+    margin-right:400px;
+    background-color:black;
+    border-radius:5px;
+}
+.usertest
+{
+    font-size:23px;
+    width:500px;
+    margin-top:30px;
+    margin-left:10px; 
+    color:rgba(94, 91, 91, 0.952); 
+}
+.tname
+{
+    font-size:20px;
+    color:rgb(8, 65, 38);
+    margin-top:20px;
+    font-weight:bold;
+    margin-left:10px; 
+}
+.testslide
+{
+    margin-top:70px;
+    margin-left:190px;
+}
+.apara
+{
+    font-size:17px;
+    color:rgba(94, 91, 91, 0.952);
+}
+.us
+{
+    font-size:20px;
+    color:rgb(17, 122, 17);
+    font-weight:bold;
+}
+.heads
+{
+    font-size:50px;
+    font-weight:bolder;
+    color:rgb(8, 65, 38);
+}
+/* test end */
+/* footer start */
+.foot
+{
+    background-color: rgb(8, 65, 38);
+}
+.foticon
+{
+    margin-left:47px;
+}
+.subhome
+{
+    margin-left:120px;
+}
+.email
+{
+    padding:15px 15px 15px 15px;
+    width:200px;
+}
+.ffoot
+{
+    margin-bottom:100px;
+}
+.footunder
+{
+    text-decoration: none;
+}
+/* footer end */
